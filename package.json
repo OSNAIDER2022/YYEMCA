@@ -1,0 +1,19 @@
+{
+  "name": "yyem",
+  "version": "1.0.0",
+  "description": "pagina para la promocion del servicio de taxis en la ciudad de medellin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSNAIDER2022/YYEM.git"
+  },
+  "author": "osnaider palomino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSNAIDER2022/YYEM/issues"
+  },
+  "homepage": "https://github.com/OSNAIDER2022/YYEM#readme"
+}
