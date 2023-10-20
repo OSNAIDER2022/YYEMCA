@@ -1,24 +1,31 @@
 import { Container, Col, Row } from 'react-bootstrap';
 import './css/App.css';
+import Menu from './components/Menu';
+import Carrusel from './components/Carrusel';
+import PresentationMessage from './components/PresentationMessge';
+import Logo from './components/Logo';
+import Portafolio from './components/Portafolio';
+import AboutMe from './components/AboutMe';
+
 
 function App() {
   return (
-    <Container>
+    <Container className='app'>
+      {/* <Row>
+        <Col md={3}><Logo/></Col>
+        <Col md={9}><Menu/></Col>
+      </Row> */}
       <Row>
-        <Col md={3}>LOGO</Col>
-        <Col md={9}>MENU</Col>
+        <Col><Carrusel/></Col>
       </Row>
       <Row>
-        <Col>CARRUSEL y NOMBRE DE LA EMPRESA</Col>
+        <Col><PresentationMessage/></Col>
       </Row>
       <Row>
-        <Col>MENSAJE DE BIENVENIDA</Col>
+        <Col><Portafolio/></Col>
       </Row>
       <Row>
-        <Col>PORTAFOLIO</Col>
-      </Row>
-      <Row>
-        <Col>ABOUT</Col>
+        <Col><AboutMe/></Col>
       </Row>
       <Row>
         <Col>CONTACTOS</Col>

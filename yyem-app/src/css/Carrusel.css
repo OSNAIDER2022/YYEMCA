@@ -1,0 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.Carrusel{
+    height: 400px;/*temporal, mientras se resuelve el renderizado de las imagenes*/
+}

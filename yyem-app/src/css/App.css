@@ -1,13 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-body {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  align-items:first baseline;
-  justify-content:center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app {
+  background-color: rgb(200, 197, 194);
   text-align: center;
 }
 

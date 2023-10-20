@@ -1,0 +1,7 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.menu{
+    background-color: rgb(160, 163, 166);
+    height: fit-content;
+    justify-content: center;
+}
