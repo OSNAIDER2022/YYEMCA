@@ -1,13 +1,16 @@
-import { Container, Col, Row, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import '../css/Logo.css'
+import logo from '../img/logo.jpg'
 
 function Logo() {
     return(
-        <div>
-            <h3>
-                <Badge>LOGO</Badge>
-            </h3>
-        </div>
+        <Container className='logo' fluid='lg'>
+            <Row>
+                <Col>
+                    <Image src={logo} fluid/>
+                </Col>
+            </Row>
+        </Container>
     )
 }
 

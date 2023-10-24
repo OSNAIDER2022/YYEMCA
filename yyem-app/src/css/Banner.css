@@ -1,8 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .banner{
-    background-color: rgb(33, 33, 33);
-    color: rgb(227, 217, 217);
-    text-align: center;
-    text-size-adjust: 
+    display: flex;
+    justify-content: center;
+    background-color: black;
 }

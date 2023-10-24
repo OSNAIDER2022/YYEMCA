@@ -1,1 +1,25 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.presentation_mensage{
+    color: rgb(251, 245, 245);
+    font-weight: 300;
+
+}
+
+.columna1_presentacion{
+    background-color: rgba(7, 7, 7, 0.8);
+    height: calc(45vh * 2vmin);
+    font-size: calc(1vh + 2vmin);
+    text-align: right;
+}
+
+.columna2_presentacion{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: rgb(242, 238, 238);
+    text-align: center;
+    font-size: calc(5vh + 2vmin);
+    height: calc(35vh + 2vmin);
+}
+

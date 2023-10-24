@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/Index.css';
 import App from './App';
-import Banner from './Banner'
+import Banner from './Banner';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Banner/>
-    <App />
-    <Banner/>
+      <App />
+      <Banner/>
   </React.StrictMode>
 );
 

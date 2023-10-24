@@ -1,7 +1,26 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-.menu{
-    background-color: rgb(160, 163, 166);
-    height: fit-content;
-    justify-content: center;
+.menu {
+    font-size: calc(2vh + 4vmin);
+    font-family: Oswald;
+    font-weight: 200;
+
+}
+
+.titulo_general {
+    /* height: calc(10vh + 6vmin); */
+    font-size: calc(12vh + 2vmin);
+    font-weight:900;
+}
+
+.columna1_menu {
+    background-color: rgb(198, 196, 194);
+}
+
+.columna2_menu {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
 }

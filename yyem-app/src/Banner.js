@@ -5,8 +5,11 @@ function Banner(){
     return(
         <Container className='banner'>
             <Row>
-                <Col>demo page create by ossoluciones</Col>
+                <Col>
+                created by ossoluciones
+                </Col>
             </Row>
+
         </Container>
     )
 }

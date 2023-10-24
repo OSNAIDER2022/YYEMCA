@@ -1,0 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.redes_sociales{
+    height:calc(3vh + 1vmin);
+}

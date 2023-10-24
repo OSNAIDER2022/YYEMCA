@@ -1,1 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.logo{
+    background-color: #ffd900;
+    max-width: 50%;
+    
+}
+

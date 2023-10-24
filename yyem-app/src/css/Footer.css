@@ -1,0 +1,13 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+.footer{
+    height: calc(12vh * 2vmin);
+    font-size: calc(1.3vh + 1vmin);
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    /* height: 10vh; */
+    
+}

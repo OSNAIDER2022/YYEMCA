@@ -1,23 +1,26 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Sometype+Mono&display=swap');
+
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e6e6e8;
-  /* min-height: 100vh;
-  display: flex;
-  align-items:center;
-  justify-content:center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  text-align: center; */
+  background-image:linear-gradient(rgba(224, 241, 31, 0.1)20%,rgb(15, 15, 14,0.7)70%),url('../img/medellin1.jpg');
+  background-repeat: no-repeat;
+  /* background-position-y: calc(80vh * 2vmin); */
+  background-size: calc(100% + 1vmin);
+  height: calc(100vh + 8vmin);
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

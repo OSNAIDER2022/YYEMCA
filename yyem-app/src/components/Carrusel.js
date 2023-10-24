@@ -1,16 +1,25 @@
-import { Carousel, Image } from 'react-bootstrap';
+import { useState } from 'react';
+import { Carousel, Container } from 'react-bootstrap';
 import '../css/Carrusel.css';
-import Menu from './Menu';
-import Logo from './Logo'
+import imagenes_carrusel from '../img/imagenes_carrusel';
+
+
 
 function Carrusel() {
+      const [index, setIndex] = useState(0);
+
+      const handleSelect = (selectedIndex) => {
+        setIndex(selectedIndex);
+      };
+
+
     return(
-        <Carousel data-bs-theme="dark" className='Carrusel'>
-          <Menu/>
+      <Container className='Carrusel'>
+        <Carousel data-bs-theme="light" activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src='../img/taxi1.jpg'
+            src={imagenes_carrusel.img1}            
             alt="First slide"
           />
           <Carousel.Caption>
@@ -21,7 +30,7 @@ function Carrusel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/taxi1.jpg"
+            src={imagenes_carrusel.img2}
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -32,7 +41,7 @@ function Carrusel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/taxi1.jpg"
+            src={imagenes_carrusel.img3}
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -43,7 +52,8 @@ function Carrusel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    )
+      </Container>
+      )
 }
 
 export default Carrusel;
