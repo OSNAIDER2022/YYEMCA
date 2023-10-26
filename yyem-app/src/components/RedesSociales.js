@@ -6,7 +6,7 @@ function RedesSociales() {
     return(
         <Container>
             <Row>
-                <Col>Nuestras Redes Sociales</Col>
+                <Col>Redes Sociales</Col>
             </Row>
             <Row>
                 <Col><img  className='redes_sociales' src={imagenes_redes.facebook}/> </Col>

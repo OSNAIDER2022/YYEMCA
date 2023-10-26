@@ -9,7 +9,7 @@
 .columna1_presentacion{
     background-color: rgba(7, 7, 7, 0.8);
     height: calc(45vh * 2vmin);
-    font-size: calc(1vh + 2vmin);
+    font-size: calc(1vh + 1.5vmin);
     text-align: right;
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     align-items:center;
     justify-content: center;
-    color: rgb(242, 238, 238);
+    color: rgb(251, 252, 251);
     text-align: center;
     font-size: calc(5vh + 2vmin);
     height: calc(35vh + 2vmin);

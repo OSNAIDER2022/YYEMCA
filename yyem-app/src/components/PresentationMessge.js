@@ -12,13 +12,14 @@ function PresentationMessage() {
                 
             </Col>
                 <Col  className='columna1_presentacion' lg={4}>
-                    <h1>Te traemos el mejor servicio de Taxi en Medellín</h1>
-                    <p>Con una amplia variedad de servicios de transporte a fin de brindar la mejor experiencia a nuestros usuarios, durante su viaje.</p>                
+                    <h1>Te ofrecemos el mejor servicio de taxi en Medellín,</h1>
+                    <p>con una amplia variedad de opciones para satisfacer todas tus necesidades. 
+                        Nuestros conductores son amables, profesionales y nuestros vehículos confortables además seguros. </p>                
                 </Col>
             </Row>
             <Row>
                 <Col  className='columna2_presentacion'>
-                    <p>Pide ya mismo tu servicio y danos gusto de atenderte.</p>
+                    <p>¡Reserva tu taxi hoy mismo y disfruta de una experiencia de viaje inolvidable!</p>
                     
                 </Col>
                 

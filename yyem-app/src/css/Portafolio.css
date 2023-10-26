@@ -1,7 +1,12 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .texto_portafolio{
-    font-size:2vh;
+    /*no definido aún*/
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    
+    
 }
 
 .imagenes{
@@ -12,10 +17,14 @@
     display: flex;
     justify-content: center;
     color: aliceblue;
-    font-size: calc(1.5vh + 3vmin);
+    font-size: calc(1.8vh + 3vmin);
     font-weight: 300;
+    
 }
 
 .espacio{
-    height: calc(10vh + 1vmin);
+    display: flex;
+    align-items: center;
+    font-size: calc(1.5vh + 3vmin);
+    height: calc(40vh + 1vmin);
 }
