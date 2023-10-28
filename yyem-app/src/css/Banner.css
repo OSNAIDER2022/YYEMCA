@@ -1,6 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .banner{
+    color: aliceblue;
+    font-size: calc(1.2vh + 0.1vmin);
+    font-family: Oswald;
+    font-weight: 100;
     display: flex;
     justify-content: center;
     background-color: black;

@@ -1,26 +1,30 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .menu {
-    font-size: calc(2vh + 4vmin);
+    font-size: calc(2.3vh + 1vmin);
     font-family: Oswald;
-    font-weight: 200;
+    font-weight: 400;
 
 }
 
 .titulo_general {
-    /* height: calc(10vh + 6vmin); */
-    font-size: calc(12vh + 2vmin);
+    color: black;
+    font-size: calc(12vh + 1vmin);
     font-weight:900;
-}
+    text-shadow: calc(0.2vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin)  rgb(104, 104, 102);
+    background-color: rgba(233, 227, 227);
+};
+
 
 .columna1_menu {
-    background-color: rgb(198, 196, 194);
+    background-color: rgb(233, 227, 227);
 }
 
 .columna2_menu {
     color: aliceblue;
     display: flex;
     align-items: center;
+    justify-content: center;
     /* justify-content: center; */
 
 }
