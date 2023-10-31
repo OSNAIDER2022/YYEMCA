@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .menu {
-    font-size: calc(2.3vh + 1vmin);
+    font-size: calc(2.5vh + 1vmin);
     font-family: Oswald;
     font-weight: 400;
 
@@ -27,4 +27,6 @@
     justify-content: center;
     /* justify-content: center; */
 
+
 }
+

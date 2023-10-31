@@ -11,17 +11,17 @@ import venezuela from '../portafolio/venezuela.jpg'
     {
         'imagen': taxi_tradicional,
         'titulo': 'Taxi Tradicional',
-        'descripcion': '¿Necesitas un transporte seguro y confiable? ¡Reserva tu taxi con nosotros! Ofrecemos un servicio de taxi tradicional de alta calidad, con vehículos limpios y conductores amables y profesionales. Estamos disponibles las 24 horas del día, los 7 días de la semana, para llevarte a donde necesites ir.'
+        'descripcion': '¿Necesitas un transporte seguro y confiable? ¡Reserva tu taxi con nosotros! Ofrecemos un servicio de taxi tradicional de alta calidad, con vehículos aseados, conductores amables y profesionales. Estamos disponibles las 24 horas del día, los 7 días de la semana, para llevarte a donde necesites ir.'
     },
     {
         'imagen': taxi_compartido,
         'titulo': 'Taxi compartido',
-        'descripcion': '¿Buscas un transporte asequible, ecológico y seguro? ¡Nuestro servicio de taxi compartido es la mejor opción! Es una forma cómoda y económica de viajar, y ayuda a reducir la contaminación. Nuestros conductores están capacitados para ofrecer un servicio de alta calidad, y nuestros vehículos están equipados con las últimas tecnologías. ¡Reserva tu taxi compartido hoy mismo!'
+        'descripcion': '¿Buscas un transporte asequible, ecológico y seguro? ¡Nuestro servicio de taxi compartido es la mejor opción! Es una forma cómoda y económica de viajar, y ayuda a reducir la contaminación. Nuestros conductores están capacitados para ofrecer un servicio de alta calidad, nuestros vehículos están equipados para brindarte el mejor confort durante tu viaje. ¡Reserva tu taxi compartido hoy mismo!'
     },
     {
         'imagen': taxi_ejecutivo,
         'titulo': 'Transporte Ejecutivo',
-        'descripcion': '¿Buscas un servicio de transporte de lujo, cómodo y personalizado? ¡Nuestro servicio de transporte ejecutivo es la mejor opción! Ofrecemos vehículos de lujo con conductores profesionales que se encargarán de todos tus detalles. Nuestros vehículos están equipados con las últimas tecnologías para que tu viaje sea lo más placentero posible. ¡Reserva tu servicio de transporte ejecutivo hoy mismo!' 
+        'descripcion': '¿Buscas un servicio de transporte de lujo, cómodo y personalizado? ¡Nuestro servicio de transporte ejecutivo es la mejor opción! Ofrecemos vehículos de lujo con conductores profesionales que se encargarán de todos tus detalles de tu desplazamiento. Nuestros vehículos están equipados con las últimas tecnologías para que tu viaje sea lo más placentero posible. ¡Reserva tu servicio de transporte ejecutivo hoy mismo!' 
     },
     {
         'imagen': aeropuerto,

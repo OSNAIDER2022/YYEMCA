@@ -1,5 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'animate.css';
 
 .redes_sociales{
     height:calc(5vh + 1vmin);
+}
+
+.redes_sociales:hover{
+    height:calc(5vh + 1.3vmin);
 }

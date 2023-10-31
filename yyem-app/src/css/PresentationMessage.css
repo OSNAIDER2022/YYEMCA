@@ -21,5 +21,22 @@
     text-align: center;
     font-size: calc(5vh + 2vmin);
     height: calc(35vh + 2vmin);
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:initial;  
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 150%;
+      
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+  }
+  
 
