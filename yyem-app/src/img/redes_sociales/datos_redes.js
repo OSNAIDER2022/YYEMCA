@@ -10,20 +10,20 @@ const datos_redesSociales = [
     {
         'imagen':facebook,
         'titulo':'',
-        'descripcion':'Para ingresar a nuestra página de Facebook, por favor haz click en la opcion de "ir"',
-        'url':'https://web.facebook.com/'
+        'descripcion':'',
+        'url':'https://www.facebook.com/profile.php?id=61553051490043'
     },
     {
         'imagen':instagram,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.instagram.com/'
+        'url':'https://www.instagram.com/yyemcataxis/#'
     },
     {
         'imagen':linkedin,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.linkedin.com/'
+        'url':"https://linkedin.com/in/yyemca-taxis-a77b82297"
     },
     {
         'imagen':telegram,
@@ -41,7 +41,7 @@ const datos_redesSociales = [
         'imagen':tiktok,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.tiktok.com/es/'
+        'url':'https://www.tiktok.com/@yyemcataxis?is_from_webapp=1&sender_device=pc'
     }
 ]
 
