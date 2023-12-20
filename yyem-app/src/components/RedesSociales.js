@@ -16,7 +16,9 @@ function RedesSociales() {
     return(
         <Container>
             <Row>
-                <Col>Redes Sociales</Col>
+                <Col>
+                Redes Sociales
+                </Col>
             </Row>
             <Row>
                 <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[0].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[0].url)}/></Col>
