@@ -1,14 +1,60 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+.back1{
+    background-color:rgb(195, 195, 195);
+}
+
+.b{
+    /* esta clase, controla el background del modal */
+    background-color: rgba(208, 211, 213, 0.9);
+}
+
+    /* clase para las letras del array precios */
+.c{
+    font-size: calc(2px + 1vmin);;
+}
+
+.g-4{
+    padding: 2%;
+    background-color: rgb(157, 160, 163, 0.3);
+    border-radius: 10px;
+}
+
 .texto_portafolio{
     display: flex;
     justify-content: center;
+    
         
 }
 
 .imagenes{
     height: calc(200px + 1vmin);
 }
+
+.imagenes:hover{
+    animation-name: rotate;
+    animation-duration: 1s;
+    
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    30% {
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(1deg);
+    }
+    70%{
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
 
 .titulo_portafolio{
     display: flex;
@@ -25,3 +71,4 @@
     font-size: calc(1.5vh + 3vmin);
     height: calc(40vh + 1vmin);
 }
+

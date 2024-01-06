@@ -2,9 +2,25 @@
 @import 'animate.css';
 
 .redes_sociales{
-    height:calc(5vh + 1vmin);
+    height:calc(5vh + 0.1vmin);
+    
 }
 
-.redes_sociales:hover{
+
+/* .redes_sociales:hover{
     height:calc(5vh + 1.3vmin);
+} */
+
+.redes_sociales:hover {
+    animation-name: g;
+    animation-duration: 0.5s;
+}
+
+@keyframes g {
+    0% {
+        transform: scale(1) 
+    }
+    100%{
+        transform: scale(0.8)
+    }
 }
