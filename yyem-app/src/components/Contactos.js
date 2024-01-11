@@ -5,7 +5,7 @@ function Contactos(){
     return(
         <Container>
             <Row>
-                <Col>Contáctanos</Col>
+                <Col>Contáctanos:</Col>
             </Row>
             <Row>
                 <Col>yyemcataxis@gmail.com</Col>

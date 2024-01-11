@@ -1,4 +1,4 @@
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import './css/App.css';
 import Menu from './components/Menu';
 import PresentationMessage from './components/PresentationMessge';

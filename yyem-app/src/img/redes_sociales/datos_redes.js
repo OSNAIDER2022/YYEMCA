@@ -14,6 +14,12 @@ const datos_redesSociales = [
         'url':'https://www.facebook.com/profile.php?id=61553051490043'
     },
     {
+        'imagen':tiktok,
+        'titulo':'',
+        'descripcion':'',
+        'url':'https://www.tiktok.com/@yyemcataxis?is_from_webapp=1&sender_device=pc'
+    },
+    {
         'imagen':instagram,
         'titulo':'',
         'descripcion':'',
@@ -26,23 +32,19 @@ const datos_redesSociales = [
         'url':"https://linkedin.com/in/yyemca-taxis-a77b82297"
     },
     {
-        'imagen':telegram,
-        'titulo':'',
-        'descripcion':'',
-        'url':'https://web.telegram.org/'
-    },
-    {
         'imagen':whatsapp,
         'titulo':'',
         'descripcion':'',
         'url':'https://www.whatsapp.com/'
     },
     {
-        'imagen':tiktok,
+        'imagen':telegram,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.tiktok.com/@yyemcataxis?is_from_webapp=1&sender_device=pc'
+        'url':'https://web.telegram.org/'
     }
+    
+    
 ]
 
 

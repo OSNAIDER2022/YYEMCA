@@ -11,7 +11,8 @@ function Portafolio() {
 
     function MydModalWithGrid(props) {
         return (
-          <Modal {...props} aria-labelledby="contained-modal-title-vcenter" className="b">
+          
+          <Modal {...props} aria-labelledby="contained-modal-title-vcenter" size='xl' className='b'>
             <Modal.Header closeButton >
               <Modal.Title id="contained-modal-title-vcenter">
                 Esta es nuestra lista de Precios!!
@@ -22,13 +23,13 @@ function Portafolio() {
                 {/* renderizado de la lista de precios */}
                 {Array.from({ length: listado.length }).map((_, idg) => (
                   <Row key={idg} className='c'>
-                    <Col xs={4} md={4}>
+                    <Col xs={4} md={4} lg={6}>
                       {listado[idg].item1}
                     </Col>
-                    <Col xs={4} md={4}>
+                    <Col xs={4} md={4} lg={3}>
                       {listado[idg].item2}
                     </Col>
-                    <Col xs={4} md={4}>
+                    <Col xs={4} md={4} lg={3}>
                       {listado[idg].item3}
                     </Col>
                   </Row>
@@ -36,9 +37,11 @@ function Portafolio() {
               </Container>
             </Modal.Body>
             <Modal.Footer>
-              <Button onClick={props.onHide}>Close</Button>
+              <Button variant='secondary' onClick={props.onHide}>Close</Button>
+              <Button variant='warning' onClick={props.onSubmit}>Reserva tu viaje</Button>
             </Modal.Footer>
           </Modal>
+          
         );
       }
       

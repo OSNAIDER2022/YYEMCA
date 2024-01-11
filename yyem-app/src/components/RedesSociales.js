@@ -17,7 +17,7 @@ function RedesSociales() {
         <Container>
             <Row>
                 <Col>
-                Redes Sociales
+                Conoce nuestras Redes Sociales:
                 </Col>
             </Row>
             <Row>
