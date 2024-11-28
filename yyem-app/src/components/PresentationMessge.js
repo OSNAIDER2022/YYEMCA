@@ -12,14 +12,13 @@ function PresentationMessage() {
                 
             </Col>
                 <Col  className='columna1_presentacion' lg={4}>
-                    <h1>Te ofrecemos el mejor servicio de taxi en Medellín,</h1>
-                    <p>con una amplia variedad de opciones para satisfacer todas tus necesidades. 
-                        Nuestros conductores son amables, profesionales y nuestros vehículos confortables además seguros. </p>                
+                    <h1>En Medellín y sus alrededores, tu viaje es más que un trayecto.</h1>
+                    Somos la empresa que transforma tus desplazamientos en experiencias inolvidables. Con nosotros, la comodidad y la atención personalizada te acompañarán desde el primer hasta el último kilómetro.
                 </Col>
             </Row>
             <Row>
                 <Col  className='columna2_presentacion'>
-                    <p>¡Reserva tu taxi hoy mismo y disfruta de una experiencia de viaje inolvidable!</p>
+                    <p>¡Reserva tu taxi hoy mismo y disfruta de una experiencia  inolvidable!</p>
                     
                 </Col>
                 

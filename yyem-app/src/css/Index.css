@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image:linear-gradient(rgba(224, 241, 31, 0.1)calc(25% + 6vmin),rgb(15, 15, 14,0.7)calc(42% + 6vmin)),url('../img/medellin1.jpg');
   background-repeat: no-repeat;
-  /* background-position-y: calc(80vh * 2vmin); */
+  background-position-y: calc(80vh * 2vmin); 
   background-size: calc(100% + 1vmin);
   height: calc(150vh + 6vmin);
   

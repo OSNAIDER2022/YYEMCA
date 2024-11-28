@@ -10,7 +10,9 @@ function RedesSociales() {
     const [ enlace, setEnlace ] = useState('#');
 
     useEffect(() => {
-      window.location.href=enlace;
+        //override page
+    //window.location.href=enlace;
+    window.open(enlace);
     },[enlace])
 
     return(
@@ -25,8 +27,12 @@ function RedesSociales() {
                 <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[1].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[1].url)}/></Col>
                 <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[2].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[2].url)}/></Col>
                 <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[3].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[3].url)}/></Col>
+                <row>
+                Comunícate con nosotros:
+                </row>
                 <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[4].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[4].url)}/></Col>
                 <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[5].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[5].url)}/></Col>
+                
             </Row>
         </Container>
     )

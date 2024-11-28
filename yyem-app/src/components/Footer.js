@@ -8,8 +8,8 @@ function Footer(){
     return(
         <Container className='footer'>
             <Row>
-                <Col lg={7}><Contactos/></Col>
-                <Col lg={5}><RedesSociales/></Col>
+                <Col lg={6}><Contactos/></Col>
+                <Col lg={6}><RedesSociales/></Col>
             </Row>
             <Row>
                 <Col>

@@ -5,15 +5,18 @@
     font-family: Oswald;
     font-weight: 400;
 
+
 }
 
 .titulo_general {
     color: black;
     font-size: calc(12vh + 1vmin);
-    font-weight:900;
-    text-shadow: calc(0.2vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin)  rgb(104, 104, 102);
+    font-weight: 900;
+    text-shadow: calc(0.2vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin) rgb(104, 104, 102);
     background-color: rgba(233, 227, 227);
-};
+}
+
+;
 
 
 .columna1_menu {
@@ -29,4 +32,3 @@
 
 
 }
-

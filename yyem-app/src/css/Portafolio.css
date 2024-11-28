@@ -1,7 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 .fade{
     /* esta clase, controla el background del modal */
     background-color: rgba(0, 0, 0, 0.1);
@@ -15,13 +13,12 @@
 
 .g-4{
     padding: 2%;
-    background-color: rgb(157, 160, 163, 0.3);
+    background-color: rgba(40, 56, 88, 0.3);
     border-radius: 10px;
 }
 
-.texto_portafolio{
-    
-        
+.titulo_portafolio{
+    text-align: center;
 }
 
 .imagenes{

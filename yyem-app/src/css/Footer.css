@@ -3,7 +3,7 @@
 
 
 .footer{
-    height: calc(12vh * 2vmin);
+    height: calc(10vh * 2vmin);
     font-size: calc(1.3vh + 1vmin);
     text-align: center;
     color: aliceblue;

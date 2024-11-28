@@ -1,21 +1,25 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Container, Col, Row, Card, Modal, Button } from 'react-bootstrap';
 import '../css/Portafolio.css'
 import datos_portafolio from '../img/portafolio/datos_portafolio.js';
 import lista_precios from '../img/portafolio/lista_precios.js';
+import datos_redes from '../img/redes_sociales/datos_redes.js';
 
 
 function Portafolio() {
     const [modalShow, setModalShow] = useState(false);
     const [listado, setListado] = useState(lista_precios)
+    const [ goToChat, setGoToChat ] = useState('#');
+    
+    useEffect(() => {window.open(goToChat)},[goToChat])
 
     function MydModalWithGrid(props) {
-        return (
+    return (
           
           <Modal {...props} aria-labelledby="contained-modal-title-vcenter" size='xl' className='b'>
             <Modal.Header closeButton >
               <Modal.Title id="contained-modal-title-vcenter">
-                Esta es nuestra lista de Precios!!
+                Conoce nuestra lista de Precios!!
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -38,7 +42,7 @@ function Portafolio() {
             </Modal.Body>
             <Modal.Footer>
               <Button variant='secondary' onClick={props.onHide}>Close</Button>
-              <Button variant='warning' onClick={props.onSubmit}>Reserva tu viaje</Button>
+              <Button variant='warning' onClick={props.onSubmit} onClickCapture={() =>  setGoToChat(datos_redes.datos_redesSociales[4].url)}>Reserva tu viaje</Button>
             </Modal.Footer>
           </Modal>
           
@@ -51,7 +55,7 @@ function Portafolio() {
         <Container>
             <Row>
                 <Col>
-                <h3  className='titulo_portafolio'> Nuestros Servicios</h3>
+                <h3  className='titulo_portafolio'> Contamos con una amplia variedad de servicios, que van desde:</h3>
                 </Col>
             </Row>
 

@@ -12,47 +12,47 @@ import lista_precios from './lista_precios'
    const datos_portafolio = [
     {
         'imagen': taxi_tradicional,
-        'titulo': 'Taxi Tradicional',
+        'titulo': 'Servicio de Taxi Tradicional',
         'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
         'id_lista':lista_precios.transporteTradicional
     },
     {
         'imagen': taxi_compartido,
-        'titulo': 'Taxi compartido',
+        'titulo': 'Servicio de Taxi Compartido',
         'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
         'id_lista':lista_precios.transporteIntermunicipal
         
     },
     {
         'imagen': taxi_ejecutivo,
-        'titulo': 'Transporte Ejecutivo',
+        'titulo': 'Transporte Ejecutivo totalmente personalizable',
         'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
         'id_lista':lista_precios.transporteTradicional
     },
     {
         'imagen': aeropuerto,
-        'titulo': 'Transporte hacia el Aeropuerto',
+        'titulo': 'Servicio de Transporte hacia el Aeropuerto',
         'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
         'id_lista':lista_precios.transporteIntermunicipal
     },
     {
         'imagen': nacional_intermunicipal,
-        'titulo': 'Transporte Intermunicipal y Nacional',
+        'titulo': 'Transporte Intermunicipal en Antioquia',
         'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
         'id_lista':lista_precios.transporteTradicional
     },
-    {
-        'imagen': chofer_personalizado,
-        'titulo': 'Transporte personalizado con chofer',
-        'descripcion':'Has click en la imagen y conoce nuestras tarifas.',
-        'id_lista':lista_precios.transporteIntermunicipal
-    },
-    {
-        'imagen': administracion_taxis,
-        'titulo': 'Administracion de vehiculos tipo Taxi',
-        'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
-        'id_lista':lista_precios.transporteTradicional
-    },
+    // {
+    //     'imagen': chofer_personalizado,
+    //     'titulo': 'Transporte personalizado con chofer',
+    //     'descripcion':'Has click en la imagen y conoce nuestras tarifas.',
+    //     'id_lista':lista_precios.transporteIntermunicipal
+    // },
+    // {
+    //     'imagen': administracion_taxis,
+    //     'titulo': 'Administracion de vehiculos tipo Taxi',
+    //     'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
+    //     'id_lista':lista_precios.transporteTradicional
+    // },
     {
         'imagen': venezuela,
         'titulo': 'Transporte hacia Caracas, Valencia y Maracaibo con conexion en Paraguachon',

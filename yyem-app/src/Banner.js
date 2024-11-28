@@ -6,7 +6,7 @@ function Banner(){
         <Container className='banner'>
             <Row>
                 <Col>
-                created by ossoluciones
+                created by SEOS technology solutions.
                 </Col>
             </Row>
 

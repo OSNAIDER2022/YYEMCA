@@ -11,37 +11,37 @@ const datos_redesSociales = [
         'imagen':facebook,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.facebook.com/profile.php?id=61553051490043'
+        'url':'https://www.facebook.com/profile.php?id=61569890031738'
     },
     {
         'imagen':tiktok,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.tiktok.com/@yyemcataxis?is_from_webapp=1&sender_device=pc'
+        'url':'https://www.tiktok.com/'
     },
     {
         'imagen':instagram,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.instagram.com/yyemcataxis/#'
+        'url':'https://www.instagram.com/'
     },
     {
         'imagen':linkedin,
         'titulo':'',
         'descripcion':'',
-        'url':"https://linkedin.com/in/yyemca-taxis-a77b82297"
+        'url':"https://www.linkedin.com/"
     },
     {
         'imagen':whatsapp,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.whatsapp.com/'
+        'url':'https://api.whatsapp.com/send/?phone=573213891461&text=Bienvenido+a+YYEMCA&app_absent=0'
     },
     {
         'imagen':telegram,
         'titulo':'',
         'descripcion':'',
-        'url':'https://web.telegram.org/'
+        'url':'https://web.telegram.org/a/'
     }
     
     
