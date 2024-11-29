@@ -12,13 +12,13 @@ function PresentationMessage() {
                 
             </Col>
                 <Col  className='columna1_presentacion' lg={4}>
-                    <h1>En Medellín y sus alrededores, tu viaje es más que un trayecto.</h1>
-                    Somos la empresa que transforma tus desplazamientos en experiencias inolvidables. Con nosotros, la comodidad y la atención personalizada te acompañarán desde el primer hasta el último kilómetro.
+                    <h1>En Medellín y sus alrededores, tu viaje será más que un trayecto.</h1>
+                    Somos la empresa que transforma tus desplazamientos en experiencias inolvidables. Con la comodidad y atención personalizada que tú necesitas.
                 </Col>
             </Row>
             <Row>
                 <Col  className='columna2_presentacion'>
-                    <p>¡Reserva tu taxi hoy mismo y disfruta de una experiencia  inolvidable!</p>
+                    <p>¡Reserva ahora mismo y disfruta de una gran experiencia!</p>
                     
                 </Col>
                 

@@ -23,15 +23,15 @@ function RedesSociales() {
                 </Col>
             </Row>
             <Row>
-                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[0].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[0].url)}/></Col>
-                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[1].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[1].url)}/></Col>
-                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[2].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[2].url)}/></Col>
-                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[3].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[3].url)}/></Col>
+                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[0].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[0].url)}/>
+                <img  className='redes_sociales' src={datos_redes.datos_redesSociales[1].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[1].url)}/>
+                <img  className='redes_sociales' src={datos_redes.datos_redesSociales[2].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[2].url)}/>
+                <img  className='redes_sociales' src={datos_redes.datos_redesSociales[3].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[3].url)}/></Col>
                 <row>
                 Comunícate con nosotros:
                 </row>
-                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[4].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[4].url)}/></Col>
-                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[5].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[5].url)}/></Col>
+                <Col><img  className='redes_sociales' src={datos_redes.datos_redesSociales[4].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[4].url)}/>
+                <img  className='redes_sociales' src={datos_redes.datos_redesSociales[5].imagen} onClick={() => setEnlace(datos_redes.datos_redesSociales[5].url)}/></Col>
                 
             </Row>
         </Container>

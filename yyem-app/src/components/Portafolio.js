@@ -55,7 +55,7 @@ function Portafolio() {
         <Container>
             <Row>
                 <Col>
-                <h3  className='titulo_portafolio'> Contamos con una amplia variedad de servicios, que van desde:</h3>
+                <h3  className='titulo_portafolio'> Conoce nuestros servicios, haciendo click en las imágenes:</h3>
                 </Col>
             </Row>
 

@@ -13,33 +13,33 @@ import lista_precios from './lista_precios'
     {
         'imagen': taxi_tradicional,
         'titulo': 'Servicio de Taxi Tradicional',
-        'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
+        'descripcion': 'Transporte destinado a movilizarte dentro de la ciudad y zonas aledañas',
         'id_lista':lista_precios.transporteTradicional
     },
     {
         'imagen': taxi_compartido,
         'titulo': 'Servicio de Taxi Compartido',
-        'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
-        'id_lista':lista_precios.transporteIntermunicipal
+        'descripcion': 'Si deseas transportarte con varios acompañantes, esta opción es para tí.',
+        'id_lista':lista_precios.transporteCompartido
         
     },
     {
         'imagen': taxi_ejecutivo,
         'titulo': 'Transporte Ejecutivo totalmente personalizable',
-        'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
-        'id_lista':lista_precios.transporteTradicional
+        'descripcion': 'Contamos con profesionales altamente calificados, para hacer de tu experiencia lo mas placentera posible.',
+        'id_lista':lista_precios.transporteEjecutivo
     },
     {
         'imagen': aeropuerto,
         'titulo': 'Servicio de Transporte hacia el Aeropuerto',
-        'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
-        'id_lista':lista_precios.transporteIntermunicipal
+        'descripcion': 'Te llevamos desde la puerta de tu casa hacia el aeropuerto de forma ágil y segura.',
+        'id_lista':lista_precios.transporteAeropuerto
     },
     {
         'imagen': nacional_intermunicipal,
         'titulo': 'Transporte Intermunicipal en Antioquia',
-        'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
-        'id_lista':lista_precios.transporteTradicional
+        'descripcion': 'Transportamos hacia la gran parte de los municipios a nivel antioquia, conoce nuestras tarifas.',
+        'id_lista':lista_precios.transporteIntermunicipal
     },
     // {
     //     'imagen': chofer_personalizado,
@@ -56,8 +56,8 @@ import lista_precios from './lista_precios'
     {
         'imagen': venezuela,
         'titulo': 'Transporte hacia Caracas, Valencia y Maracaibo con conexion en Paraguachon',
-        'descripcion': 'Has click en la imagen y conoce nuestras tarifas.',
-        'id_lista':lista_precios.transporteIntermunicipal
+        'descripcion': 'Te llevamos hasta Caracas y/o Maracaibo, haciendo escala desde nuestra sede en Paraguachón',
+        'id_lista':lista_precios.transporteAVenezuela
     }
    ]
 

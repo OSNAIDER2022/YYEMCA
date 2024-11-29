@@ -28,6 +28,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration-line:underline;
+    font-style: italic;
+    text-shadow: calc(0.2vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin) rgb(104, 104, 102);
     /* justify-content: center; */
 
 

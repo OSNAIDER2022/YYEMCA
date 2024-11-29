@@ -21,7 +21,7 @@
     justify-content: center;
     color: rgb(251, 252, 251);
     text-align: center;
-    font-size: calc(5vh + 2vmin);
+    font-size: calc(4vh + 2vmin);
     height: calc(35vh + 2vmin);
 
     animation-duration: 2s;

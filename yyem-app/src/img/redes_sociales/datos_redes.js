@@ -17,19 +17,19 @@ const datos_redesSociales = [
         'imagen':tiktok,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.tiktok.com/'
+        'url':'https://www.tiktok.com/@yyemcacol'
     },
     {
         'imagen':instagram,
         'titulo':'',
         'descripcion':'',
-        'url':'https://www.instagram.com/'
+        'url':'https://www.instagram.com/yyemcacolombia/'
     },
     {
         'imagen':linkedin,
         'titulo':'',
         'descripcion':'',
-        'url':"https://www.linkedin.com/"
+        'url':"www.linkedin.com/in/yyemca-colombia-98428133b"
     },
     {
         'imagen':whatsapp,
