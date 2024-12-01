@@ -35,7 +35,7 @@ const datos_redesSociales = [
         'imagen':whatsapp,
         'titulo':'',
         'descripcion':'',
-        'url':'https://api.whatsapp.com/send/?phone=573213891461&text=Bienvenido+a+YYEMCA&app_absent=0'
+        'url':'https://api.whatsapp.com/send/?phone=573003474035&text=Hola+quiero+recibir+mas+informacion+sobre+sus+servicios&app_absent=0'
     },
     {
         'imagen':telegram,

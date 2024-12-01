@@ -8,7 +8,7 @@ function Contactos(){
                 <Col>Contáctanos:</Col>
             </Row>
             <Row>
-                <Col>yyemcataxis@gmail.com</Col>
+                <Col>yyemcacolombia@gmail.com</Col>
                 <Col>3003474035</Col>
             </Row>
             <Row>

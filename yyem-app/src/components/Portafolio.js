@@ -19,7 +19,7 @@ function Portafolio() {
           <Modal {...props} aria-labelledby="contained-modal-title-vcenter" size='xl' className='b'>
             <Modal.Header closeButton >
               <Modal.Title id="contained-modal-title-vcenter">
-                Conoce nuestra lista de Precios!!
+                Negocia el costo de tu viaje!!
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>

@@ -18,7 +18,7 @@ import lista_precios from './lista_precios'
     },
     {
         'imagen': taxi_compartido,
-        'titulo': 'Servicio de Taxi Compartido',
+        'titulo': 'Servicio de Taxi Puerta a Puerta',
         'descripcion': 'Si deseas transportarte con varios acompañantes, esta opción es para tí.',
         'id_lista':lista_precios.transporteCompartido
         
@@ -55,8 +55,8 @@ import lista_precios from './lista_precios'
     // },
     {
         'imagen': venezuela,
-        'titulo': 'Transporte hacia Caracas, Valencia y Maracaibo con conexion en Paraguachon',
-        'descripcion': 'Te llevamos hasta Caracas y/o Maracaibo, haciendo escala desde nuestra sede en Paraguachón',
+        'titulo': 'Transporte a Venezuela',
+        'descripcion': 'Te llevamos desde cualquier lugar de Colombia hasta cualquier ciudad de Venezuela, haciendo trasbordo en Paraguachón o en San Antonio',
         'id_lista':lista_precios.transporteAVenezuela
     }
    ]
