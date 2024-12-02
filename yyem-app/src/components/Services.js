@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import { Container, Col, Row, Card, Modal, Button } from 'react-bootstrap';
-import '../css/Portafolio.css'
-import datos_portafolio from '../img/portafolio/datos_portafolio.js';
-import lista_precios from '../img/portafolio/lista_precios.js';
-import datos_redes from '../img/redes_sociales/datos_redes.js';
+import { Container, Col, Row, Card, Modal, Button, Image } from 'react-bootstrap';
+import '../css/Services.css'
+import datos_portafolio from '../img/services/servicesData.js';
+import lista_precios from '../img/services/serviceContext.js';
+import socialMediaData from '../img/socialMedia/socialMediaData.js';
 
 
-function Portafolio() {
+function Services() {
     const [modalShow, setModalShow] = useState(false);
     const [listado, setListado] = useState(lista_precios)
     const [ goToChat, setGoToChat ] = useState('#');
@@ -18,31 +18,37 @@ function Portafolio() {
           
           <Modal {...props} aria-labelledby="contained-modal-title-vcenter" size='xl' className='b'>
             <Modal.Header closeButton >
-              <Modal.Title id="contained-modal-title-vcenter">
-                Negocia el costo de tu viaje!!
-              </Modal.Title>
+              {/* renderizado de la Card Title */}
+              {Array.from({ length: listado.length }).map((_, idg) => (
+                <Modal.Title id="contained-modal-title-vcenter">
+                  <div className='tituloContext'>
+                    {listado[idg].item1}
+                  </div>
+                </Modal.Title>
+              ))}
+              
             </Modal.Header>
             <Modal.Body>
               <Container>
-                {/* renderizado de la lista de precios */}
+                {/* renderizado de la image and context Card */}
                 {Array.from({ length: listado.length }).map((_, idg) => (
                   <Row key={idg} className='c'>
-                    <Col xs={4} md={4} lg={6}>
-                      {listado[idg].item1}
+                    <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                      <Image className='imageContext' src={listado[idg].item2} fluid/>                           
                     </Col>
-                    <Col xs={4} md={4} lg={3}>
-                      {listado[idg].item2}
-                    </Col>
-                    <Col xs={4} md={4} lg={3}>
-                      {listado[idg].item3}
+                    <Col xs={8} sm={8} md={8} lg={8} xl={8} xxl={8}>
+                      <Row>{listado[idg].item3}</Row>
+                      <Row className='textCenter'>{listado[idg].item4}</Row>
+                      <Row>{listado[idg].item5}</Row>
                     </Col>
                   </Row>
                 ))} 
               </Container>
             </Modal.Body>
             <Modal.Footer>
-              <Button variant='secondary' onClick={props.onHide}>Close</Button>
-              <Button variant='warning' onClick={props.onSubmit} onClickCapture={() =>  setGoToChat(datos_redes.datos_redesSociales[4].url)}>Reserva tu viaje</Button>
+              {/* <Button variant='secondary' onClick={props.onHide}>Close</Button> */}
+              <Button variant='warning' onClick={props.onSubmit} onClickCapture={() =>  setGoToChat(socialMediaData.socialMediaData[4].url)}>Contáctanos</Button>
+              {/* <Button variant='info' onClick={props.onSubmit} onClickCapture={() =>  setGoToChat(socialMediaData.socialMediaData[5].url)}>Contáctanos</Button> */}
             </Modal.Footer>
           </Modal>
           
@@ -80,13 +86,13 @@ function Portafolio() {
 
             <Row>
                 <Col className='espacio'>
-                <Col>
-            ¿No te apetece un viaje cómodo y seguro? ¡Reserva tu taxi con nosotros hoy! Te encantará nuestro servicio.
-            </Col>
+            
+            Viaja con nosotros y tendras un viaje cómodo y seguro.
+            
                 </Col>
             </Row> 
         </Container>
         )
 }
 
-export default Portafolio;
+export default Services;

@@ -1,71 +1,96 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-.fade{
+.fade {
     /* esta clase, controla el background del modal */
     background-color: rgba(0, 0, 0, 0.1);
-        
+
 }
 
-    /* clase para las letras del array precios */
-.c{
-    font-size: calc(2px + 1vmin);
+/* clase para las letras del array precios */
+.c {
+    /* tamaño del texto del contexto*/
+    display: flex;
+    font-size: calc(13px + 0.5vh);
+    text-align: left;
+    text-shadow: calc(0.1vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin) rgb(104, 104, 102);
+    align-items: center;
     
 }
 
-.g-4{
+.g-4 {
     padding: 2%;
     background-color: rgba(40, 56, 88, 0.3);
     border-radius: 10px;
 }
 
-.titulo_portafolio{
+.titulo_portafolio {
     text-align: center;
+    font-weight: bold;
 }
 
-.imagenes{
+.imagenes {
     height: calc(200px + 1vmin);
 }
 
-.imagenes:hover{
+.imagenes:hover {
     animation-name: rotate;
     animation-duration: 1.5s;
-    
+
+}
+
+.imageContext {
+    border-radius: 5%;;
+    height: calc(200px + 1vmin);
+}
+
+.tituloContext{
+    /* text-shadow: calc(0.2vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin) rgb(104, 104, 102); */
+    font-weight: bold;
+}
+
+
+.textCenter{
+    font-weight: bold;
 }
 
 @keyframes rotate {
-    0%{
+    0% {
         transform: rotate(0);
     }
+
     30% {
         transform: rotate(3deg);
     }
-    50%{
+
+    50% {
         transform: rotate(1deg);
     }
-    70%{
+
+    70% {
         transform: rotate(2deg);
     }
-    100%{
+
+    100% {
         transform: rotate(0);
     }
 }
 
 
-.titulo_portafolio{
+.titulo_portafolio {
     display: flex;
     justify-content: center;
     color: aliceblue;
     font-size: calc(1.8vh + 3vmin);
     font-weight: 300;
     text-shadow: calc(0.2vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin) rgb(104, 104, 102);
-    
+
 }
 
-.espacio{
+.espacio {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: calc(1.5vh + 3vmin);
     height: calc(40vh + 1vmin);
     text-shadow: calc(0.2vh + 1vmin) calc(0.1vh + 0.1vmin) calc(0.1vh + 1vmin) rgb(104, 104, 102);
 }
-

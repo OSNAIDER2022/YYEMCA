@@ -1,17 +1,17 @@
 import { Container} from 'react-bootstrap';
 import './css/App.css';
-import Menu from './components/Menu';
+import Header from './components/Header';
 import PresentationMessage from './components/PresentationMessge';
-import Portafolio from './components/Portafolio';
+import Services from './components/Services';
 import Footer from './components/Footer';
 
 
 function App() {
   return (
     <Container className='app'>
-      <Menu/>
+      <Header/>
       <PresentationMessage/>
-      <Portafolio/>
+      <Services/>
       <Footer/>
     </Container>
   );

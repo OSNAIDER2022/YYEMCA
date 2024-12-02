@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import '../css/Contactos.css'
+import '../css/Contacts.css'
 
-function Contactos(){
+function Contacts(){
     return(
         <Container>
             <Row>
@@ -9,7 +9,7 @@ function Contactos(){
             </Row>
             <Row>
                 <Col>yyemcacolombia@gmail.com</Col>
-                <Col>3003474035</Col>
+                <Col>3017506250</Col>
             </Row>
             <Row>
             <Col>Calle 61 #47 - 47 Barrio La Masion, Medellín - Colombia.</Col>
@@ -18,4 +18,4 @@ function Contactos(){
     )
 }
 
-export default Contactos;
+export default Contacts;

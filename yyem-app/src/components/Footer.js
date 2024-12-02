@@ -1,19 +1,19 @@
 import { Container, Col, Row } from 'react-bootstrap';
 import '../css/Footer.css'
-import RedesSociales from './RedesSociales';
-import Contactos from './Contactos';
+import SocialMedia from './SocialMedia';
+import Contacts from './Contacts';
 import Banner from '../Banner';
 
 function Footer(){
     return(
         <Container className='footer'>
             <Row>
-                <Col lg={6}><Contactos/></Col>
-                <Col lg={6}><RedesSociales/></Col>
+                <Col lg={6}><Contacts/></Col>
+                <Col lg={6}><SocialMedia/></Col>
             </Row>
             <Row>
                 <Col>
-                <Banner/>
+                    <Banner/>
                 </Col>
             </Row>
         </Container>

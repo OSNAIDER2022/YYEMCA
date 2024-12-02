@@ -1,8 +1,8 @@
 import { Container, Col, Row } from 'react-bootstrap';
-import '../css/Menu.css';
+import '../css/Header.css';
 
 
-function Menu() {
+function Header() {
   return (
     <Container className='menu'>
       <Row>
@@ -17,4 +17,4 @@ function Menu() {
   )
 }
 
-export default Menu;
+export default Header;
