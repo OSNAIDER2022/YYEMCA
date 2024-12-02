@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/YYEMCA/static/css/main.9832d761.css",
-    "main.js": "/YYEMCA/static/js/main.63ef2b4e.js",
-    "static/media/nacional_intermunicipal.jpg": "/YYEMCA/static/media/nacional_intermunicipal.e7bb92de9a98f93809f5.jpg",
-    "static/media/chofer_personalizado.jpg": "/YYEMCA/static/media/chofer_personalizado.b27646090201b9cf2372.jpg",
-    "static/media/medellin1.jpg": "/YYEMCA/static/media/medellin1.57c94f95dbc796275bb7.jpg",
-    "static/media/aeropuerto.jpg": "/YYEMCA/static/media/aeropuerto.9fae59c4a4fb9e308810.jpg",
-    "static/media/taxi_tradicional.jpg": "/YYEMCA/static/media/taxi_tradicional.47f2317b5d32b6920fc5.jpg",
-    "static/media/whatsapp.png": "/YYEMCA/static/media/whatsapp.e39605e012e4b94698aa.png",
-    "static/media/taxi_compartido.jpg": "/YYEMCA/static/media/taxi_compartido.e133f2f7cc8ba229f2d7.jpg",
-    "static/media/venezuela.jpg": "/YYEMCA/static/media/venezuela.5ca4beaaeb2584655f4b.jpg",
-    "static/media/tiktok.png": "/YYEMCA/static/media/tiktok.ad5c644467e8d754c2d8.png",
-    "static/media/administracion_taxis.jpg": "/YYEMCA/static/media/administracion_taxis.32e540c20f0900ed87a0.jpg",
-    "static/media/taxi_ejecutivo.jpg": "/YYEMCA/static/media/taxi_ejecutivo.846dad2bcc6ec81e8da4.jpg",
-    "static/media/instagram.png": "/YYEMCA/static/media/instagram.dc6f1be6fe0c66205510.png",
-    "static/media/linkedin.png": "/YYEMCA/static/media/linkedin.155d1ebc2961fcc3dc20.png",
-    "static/media/facebook.png": "/YYEMCA/static/media/facebook.97e43ea96c65c704ffe5.png",
-    "static/media/telegram.png": "/YYEMCA/static/media/telegram.8a2f1418111be1859dd9.png",
-    "index.html": "/YYEMCA/index.html",
-    "main.9832d761.css.map": "/YYEMCA/static/css/main.9832d761.css.map",
-    "main.63ef2b4e.js.map": "/YYEMCA/static/js/main.63ef2b4e.js.map"
+    "main.css": "/YYEMCA/yyem-app/static/css/main.16a009cc.css",
+    "main.js": "/YYEMCA/yyem-app/static/js/main.e3e60a4d.js",
+    "static/media/nacional_intermunicipal.jpg": "/YYEMCA/yyem-app/static/media/nacional_intermunicipal.e7bb92de9a98f93809f5.jpg",
+    "static/media/chofer_personalizado.jpg": "/YYEMCA/yyem-app/static/media/chofer_personalizado.b27646090201b9cf2372.jpg",
+    "static/media/medellin1.jpg": "/YYEMCA/yyem-app/static/media/medellin1.57c94f95dbc796275bb7.jpg",
+    "static/media/aeropuerto.jpg": "/YYEMCA/yyem-app/static/media/aeropuerto.9fae59c4a4fb9e308810.jpg",
+    "static/media/taxi_tradicional.jpg": "/YYEMCA/yyem-app/static/media/taxi_tradicional.47f2317b5d32b6920fc5.jpg",
+    "static/media/whatsapp.png": "/YYEMCA/yyem-app/static/media/whatsapp.e39605e012e4b94698aa.png",
+    "static/media/taxi_compartido.jpg": "/YYEMCA/yyem-app/static/media/taxi_compartido.e133f2f7cc8ba229f2d7.jpg",
+    "static/media/venezuela.jpg": "/YYEMCA/yyem-app/static/media/venezuela.5ca4beaaeb2584655f4b.jpg",
+    "static/media/tiktok.png": "/YYEMCA/yyem-app/static/media/tiktok.ad5c644467e8d754c2d8.png",
+    "static/media/administracion_taxis.jpg": "/YYEMCA/yyem-app/static/media/administracion_taxis.32e540c20f0900ed87a0.jpg",
+    "static/media/taxi_ejecutivo.jpg": "/YYEMCA/yyem-app/static/media/taxi_ejecutivo.846dad2bcc6ec81e8da4.jpg",
+    "static/media/instagram.png": "/YYEMCA/yyem-app/static/media/instagram.dc6f1be6fe0c66205510.png",
+    "static/media/linkedin.png": "/YYEMCA/yyem-app/static/media/linkedin.155d1ebc2961fcc3dc20.png",
+    "static/media/facebook.png": "/YYEMCA/yyem-app/static/media/facebook.97e43ea96c65c704ffe5.png",
+    "static/media/telegram.png": "/YYEMCA/yyem-app/static/media/telegram.8a2f1418111be1859dd9.png",
+    "index.html": "/YYEMCA/yyem-app/index.html",
+    "main.16a009cc.css.map": "/YYEMCA/yyem-app/static/css/main.16a009cc.css.map",
+    "main.e3e60a4d.js.map": "/YYEMCA/yyem-app/static/js/main.e3e60a4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9832d761.css",
-    "static/js/main.63ef2b4e.js"
+    "static/css/main.16a009cc.css",
+    "static/js/main.e3e60a4d.js"
   ]
 }
