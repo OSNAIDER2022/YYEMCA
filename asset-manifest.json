@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b8d2ea44.css",
-    "main.js": "/static/js/main.87179f2c.js",
+    "main.js": "/static/js/main.27e2550a.js",
     "static/media/nacional_intermunicipal.jpg": "/static/media/nacional_intermunicipal.e7bb92de9a98f93809f5.jpg",
     "static/media/chofer_personalizado.jpg": "/static/media/chofer_personalizado.b27646090201b9cf2372.jpg",
     "static/media/medellin1.jpg": "/static/media/medellin1.57c94f95dbc796275bb7.jpg",
@@ -19,10 +19,10 @@
     "static/media/telegram.png": "/static/media/telegram.8a2f1418111be1859dd9.png",
     "index.html": "/index.html",
     "main.b8d2ea44.css.map": "/static/css/main.b8d2ea44.css.map",
-    "main.87179f2c.js.map": "/static/js/main.87179f2c.js.map"
+    "main.27e2550a.js.map": "/static/js/main.27e2550a.js.map"
   },
   "entrypoints": [
     "static/css/main.b8d2ea44.css",
-    "static/js/main.87179f2c.js"
+    "static/js/main.27e2550a.js"
   ]
 }
