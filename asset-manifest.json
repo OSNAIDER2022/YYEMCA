@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YYEMCA/static/css/main.df968d75.css",
-    "main.js": "/YYEMCA/static/js/main.1884c95d.js",
+    "main.js": "/YYEMCA/static/js/main.827296d7.js",
     "static/media/nacional_intermunicipal.jpg": "/YYEMCA/static/media/nacional_intermunicipal.e7bb92de9a98f93809f5.jpg",
     "static/media/chofer_personalizado.jpg": "/YYEMCA/static/media/chofer_personalizado.b27646090201b9cf2372.jpg",
     "static/media/medellin1.jpg": "/YYEMCA/static/media/medellin1.57c94f95dbc796275bb7.jpg",
@@ -19,10 +19,10 @@
     "static/media/telegram.png": "/YYEMCA/static/media/telegram.8a2f1418111be1859dd9.png",
     "index.html": "/YYEMCA/index.html",
     "main.df968d75.css.map": "/YYEMCA/static/css/main.df968d75.css.map",
-    "main.1884c95d.js.map": "/YYEMCA/static/js/main.1884c95d.js.map"
+    "main.827296d7.js.map": "/YYEMCA/static/js/main.827296d7.js.map"
   },
   "entrypoints": [
     "static/css/main.df968d75.css",
-    "static/js/main.1884c95d.js"
+    "static/js/main.827296d7.js"
   ]
 }
